@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DBEF0D061395F0152093807 /* Pods_DiRE_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66DD38775EA77ACF86EBB58 /* Pods_DiRE_TV.framework */; };
+		C86710D128C319480049E437 /* InternetActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86710D028C319480049E437 /* InternetActivity.swift */; };
+		C88E04E028C2859400F83547 /* VideoDownloaderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04C828C2859300F83547 /* VideoDownloaderHandler.swift */; };
+		C88E04E128C2859400F83547 /* VideoCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04C928C2859300F83547 /* VideoCacheHandler.swift */; };
+		C88E04E228C2859400F83547 /* VideoLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04CA28C2859400F83547 /* VideoLoadManager.swift */; };
+		C88E04E328C2859400F83547 /* VideoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04CB28C2859400F83547 /* VideoDownloader.swift */; };
+		C88E04E428C2859400F83547 /* VideoFullscreenTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04CC28C2859400F83547 /* VideoFullscreenTransitioner.swift */; };
+		C88E04E528C2859400F83547 /* VideoCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04CD28C2859400F83547 /* VideoCacheManager.swift */; };
+		C88E04E628C2859400F83547 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04CE28C2859400F83547 /* AVAssetResourceLoadingRequest+Extensions.swift */; };
+		C88E04E728C2859400F83547 /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04CF28C2859400F83547 /* AVPlayer+Extensions.swift */; };
+		C88E04E828C2859400F83547 /* VideoDownloaderSessionDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D028C2859400F83547 /* VideoDownloaderSessionDelegateHandler.swift */; };
+		C88E04E928C2859400F83547 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D128C2859400F83547 /* Int+Extensions.swift */; };
+		C88E04EA28C2859400F83547 /* VideoPreloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D228C2859400F83547 /* VideoPreloadManager.swift */; };
+		C88E04EB28C2859400F83547 /* VideoRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D328C2859400F83547 /* VideoRequestLoader.swift */; };
+		C88E04EC28C2859400F83547 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D428C2859400F83547 /* String+Extensions.swift */; };
+		C88E04ED28C2859400F83547 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D528C2859400F83547 /* VideoPlayerView.swift */; };
+		C88E04EE28C2859400F83547 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D628C2859400F83547 /* Double+Extensions.swift */; };
+		C88E04EF28C2859400F83547 /* AVPlayerItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D728C2859400F83547 /* AVPlayerItem+Extensions.swift */; };
+		C88E04F028C2859400F83547 /* VideoCacheAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D828C2859400F83547 /* VideoCacheAction.swift */; };
+		C88E04F128C2859400F83547 /* VideoFullscreenPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04D928C2859400F83547 /* VideoFullscreenPlayerView.swift */; };
+		C88E04F228C2859400F83547 /* VideoDownloadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04DA28C2859400F83547 /* VideoDownloadInfo.swift */; };
+		C88E04F328C2859400F83547 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04DB28C2859400F83547 /* Float+Extensions.swift */; };
+		C88E04F428C2859400F83547 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04DC28C2859400F83547 /* VideoInfo.swift */; };
+		C88E04F528C2859400F83547 /* VideoCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04DD28C2859400F83547 /* VideoCacheConfiguration.swift */; };
+		C88E04F628C2859400F83547 /* VideoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04DE28C2859400F83547 /* VideoLoader.swift */; };
+		C88E04F728C2859400F83547 /* GSAVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04DF28C2859400F83547 /* GSAVPlayerViewController.swift */; };
+		C8922F8B28BF1667003011AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8922F8A28BF1667003011AC /* AppDelegate.swift */; };
+		C8922F9028BF1667003011AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8922F8E28BF1667003011AC /* Main.storyboard */; };
+		C8922F9228BF1669003011AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8922F9128BF1669003011AC /* Assets.xcassets */; };
+		C8922F9528BF1669003011AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8922F9328BF1669003011AC /* LaunchScreen.storyboard */; };
+		C8922FA428BF169F003011AC /* dire_tv.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C8922F9D28BF169F003011AC /* dire_tv.mp4 */; };
+		C8922FA528BF169F003011AC /* ticker.png in Resources */ = {isa = PBXBuildFile; fileRef = C8922F9E28BF169F003011AC /* ticker.png */; };
+		C8922FA628BF169F003011AC /* white_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C8922F9F28BF169F003011AC /* white_logo.png */; };
+		C8922FA728BF169F003011AC /* _splash_background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C8922FA028BF169F003011AC /* _splash_background.mp4 */; };
+		C8922FA828BF169F003011AC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C8922FA128BF169F003011AC /* logo.png */; };
+		C8922FA928BF169F003011AC /* splash_background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C8922FA228BF169F003011AC /* splash_background.mp4 */; };
+		C8922FAB28BF16E9003011AC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8922FAA28BF16E9003011AC /* SplashViewController.swift */; };
+		C8922FAD28BF16F8003011AC /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8922FAC28BF16F8003011AC /* AppViewController.swift */; };
+		C8F4907528BFA3FA009420B1 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8F4906F28BFA3FA009420B1 /* RobotoCondensed-Bold.ttf */; };
+		C8F4907628BFA3FA009420B1 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8F4907028BFA3FA009420B1 /* RobotoCondensed-Light.ttf */; };
+		C8F4907728BFA3FA009420B1 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8F4907128BFA3FA009420B1 /* RobotoCondensed-BoldItalic.ttf */; };
+		C8F4907828BFA3FA009420B1 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8F4907228BFA3FA009420B1 /* RobotoCondensed-Regular.ttf */; };
+		C8F4907928BFA3FA009420B1 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8F4907328BFA3FA009420B1 /* RobotoCondensed-LightItalic.ttf */; };
+		C8F4907A28BFA3FB009420B1 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8F4907428BFA3FA009420B1 /* RobotoCondensed-Italic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EE898888818ECA53DFEE70D /* Pods-DiRE TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiRE TV.debug.xcconfig"; path = "Target Support Files/Pods-DiRE TV/Pods-DiRE TV.debug.xcconfig"; sourceTree = "<group>"; };
+		6CFE6BDCFA47B34A0636D9FF /* Pods-DiRE TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiRE TV.release.xcconfig"; path = "Target Support Files/Pods-DiRE TV/Pods-DiRE TV.release.xcconfig"; sourceTree = "<group>"; };
+		C66DD38775EA77ACF86EBB58 /* Pods_DiRE_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiRE_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86710D028C319480049E437 /* InternetActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetActivity.swift; sourceTree = "<group>"; };
+		C88E04C828C2859300F83547 /* VideoDownloaderHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloaderHandler.swift; sourceTree = "<group>"; };
+		C88E04C928C2859300F83547 /* VideoCacheHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCacheHandler.swift; sourceTree = "<group>"; };
+		C88E04CA28C2859400F83547 /* VideoLoadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLoadManager.swift; sourceTree = "<group>"; };
+		C88E04CB28C2859400F83547 /* VideoDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloader.swift; sourceTree = "<group>"; };
+		C88E04CC28C2859400F83547 /* VideoFullscreenTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFullscreenTransitioner.swift; sourceTree = "<group>"; };
+		C88E04CD28C2859400F83547 /* VideoCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCacheManager.swift; sourceTree = "<group>"; };
+		C88E04CE28C2859400F83547 /* AVAssetResourceLoadingRequest+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAssetResourceLoadingRequest+Extensions.swift"; sourceTree = "<group>"; };
+		C88E04CF28C2859400F83547 /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
+		C88E04D028C2859400F83547 /* VideoDownloaderSessionDelegateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloaderSessionDelegateHandler.swift; sourceTree = "<group>"; };
+		C88E04D128C2859400F83547 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		C88E04D228C2859400F83547 /* VideoPreloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPreloadManager.swift; sourceTree = "<group>"; };
+		C88E04D328C2859400F83547 /* VideoRequestLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRequestLoader.swift; sourceTree = "<group>"; };
+		C88E04D428C2859400F83547 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		C88E04D528C2859400F83547 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		C88E04D628C2859400F83547 /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		C88E04D728C2859400F83547 /* AVPlayerItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayerItem+Extensions.swift"; sourceTree = "<group>"; };
+		C88E04D828C2859400F83547 /* VideoCacheAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCacheAction.swift; sourceTree = "<group>"; };
+		C88E04D928C2859400F83547 /* VideoFullscreenPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFullscreenPlayerView.swift; sourceTree = "<group>"; };
+		C88E04DA28C2859400F83547 /* VideoDownloadInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloadInfo.swift; sourceTree = "<group>"; };
+		C88E04DB28C2859400F83547 /* Float+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Extensions.swift"; sourceTree = "<group>"; };
+		C88E04DC28C2859400F83547 /* VideoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
+		C88E04DD28C2859400F83547 /* VideoCacheConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCacheConfiguration.swift; sourceTree = "<group>"; };
+		C88E04DE28C2859400F83547 /* VideoLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLoader.swift; sourceTree = "<group>"; };
+		C88E04DF28C2859400F83547 /* GSAVPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSAVPlayerViewController.swift; sourceTree = "<group>"; };
+		C8922F8728BF1667003011AC /* DiRE TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiRE TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8922F8A28BF1667003011AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8922F8F28BF1667003011AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8922F9128BF1669003011AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8922F9428BF1669003011AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8922F9C28BF169F003011AC /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		C8922F9D28BF169F003011AC /* dire_tv.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dire_tv.mp4; sourceTree = "<group>"; };
+		C8922F9E28BF169F003011AC /* ticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticker.png; sourceTree = "<group>"; };
+		C8922F9F28BF169F003011AC /* white_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_logo.png; sourceTree = "<group>"; };
+		C8922FA028BF169F003011AC /* _splash_background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = _splash_background.mp4; sourceTree = "<group>"; };
+		C8922FA128BF169F003011AC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C8922FA228BF169F003011AC /* splash_background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash_background.mp4; sourceTree = "<group>"; };
+		C8922FAA28BF16E9003011AC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C8922FAC28BF16F8003011AC /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		C8922FAE28BF19F0003011AC /* DiRE-TV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DiRE-TV-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C8F4906F28BFA3FA009420B1 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-Bold.ttf"; path = "DiRE TV/files/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		C8F4907028BFA3FA009420B1 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-Light.ttf"; path = "DiRE TV/files/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		C8F4907128BFA3FA009420B1 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-BoldItalic.ttf"; path = "DiRE TV/files/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C8F4907228BFA3FA009420B1 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-Regular.ttf"; path = "DiRE TV/files/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		C8F4907328BFA3FA009420B1 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-LightItalic.ttf"; path = "DiRE TV/files/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		C8F4907428BFA3FA009420B1 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-Italic.ttf"; path = "DiRE TV/files/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8922F8428BF1667003011AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBEF0D061395F0152093807 /* Pods_DiRE_TV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F5C49EED40827821782CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66DD38775EA77ACF86EBB58 /* Pods_DiRE_TV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BE05C207E13F858F8155FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE898888818ECA53DFEE70D /* Pods-DiRE TV.debug.xcconfig */,
+				6CFE6BDCFA47B34A0636D9FF /* Pods-DiRE TV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8231E3328BFE166005F0B17 /* GSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C88E04CE28C2859400F83547 /* AVAssetResourceLoadingRequest+Extensions.swift */,
+				C88E04CF28C2859400F83547 /* AVPlayer+Extensions.swift */,
+				C88E04D728C2859400F83547 /* AVPlayerItem+Extensions.swift */,
+				C88E04D628C2859400F83547 /* Double+Extensions.swift */,
+				C88E04DB28C2859400F83547 /* Float+Extensions.swift */,
+				C88E04DF28C2859400F83547 /* GSAVPlayerViewController.swift */,
+				C88E04D128C2859400F83547 /* Int+Extensions.swift */,
+				C88E04D428C2859400F83547 /* String+Extensions.swift */,
+				C88E04D828C2859400F83547 /* VideoCacheAction.swift */,
+				C88E04DD28C2859400F83547 /* VideoCacheConfiguration.swift */,
+				C88E04C928C2859300F83547 /* VideoCacheHandler.swift */,
+				C88E04CD28C2859400F83547 /* VideoCacheManager.swift */,
+				C88E04CB28C2859400F83547 /* VideoDownloader.swift */,
+				C88E04C828C2859300F83547 /* VideoDownloaderHandler.swift */,
+				C88E04D028C2859400F83547 /* VideoDownloaderSessionDelegateHandler.swift */,
+				C88E04DA28C2859400F83547 /* VideoDownloadInfo.swift */,
+				C88E04D928C2859400F83547 /* VideoFullscreenPlayerView.swift */,
+				C88E04CC28C2859400F83547 /* VideoFullscreenTransitioner.swift */,
+				C88E04DC28C2859400F83547 /* VideoInfo.swift */,
+				C88E04DE28C2859400F83547 /* VideoLoader.swift */,
+				C88E04CA28C2859400F83547 /* VideoLoadManager.swift */,
+				C88E04D528C2859400F83547 /* VideoPlayerView.swift */,
+				C88E04D228C2859400F83547 /* VideoPreloadManager.swift */,
+				C88E04D328C2859400F83547 /* VideoRequestLoader.swift */,
+			);
+			path = GSPlayer;
+			sourceTree = "<group>";
+		};
+		C8922F7E28BF1667003011AC = {
+			isa = PBXGroup;
+			children = (
+				C8F4906F28BFA3FA009420B1 /* RobotoCondensed-Bold.ttf */,
+				C8F4907128BFA3FA009420B1 /* RobotoCondensed-BoldItalic.ttf */,
+				C8F4907428BFA3FA009420B1 /* RobotoCondensed-Italic.ttf */,
+				C8F4907028BFA3FA009420B1 /* RobotoCondensed-Light.ttf */,
+				C8F4907328BFA3FA009420B1 /* RobotoCondensed-LightItalic.ttf */,
+				C8F4907228BFA3FA009420B1 /* RobotoCondensed-Regular.ttf */,
+				C8922F8928BF1667003011AC /* DiRE TV */,
+				C8922F8828BF1667003011AC /* Products */,
+				5BE05C207E13F858F8155FE2 /* Pods */,
+				48F5C49EED40827821782CE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8922F8828BF1667003011AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8922F8728BF1667003011AC /* DiRE TV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8922F8928BF1667003011AC /* DiRE TV */ = {
+			isa = PBXGroup;
+			children = (
+				C8231E3328BFE166005F0B17 /* GSPlayer */,
+				C8922FAE28BF19F0003011AC /* DiRE-TV-Info.plist */,
+				C8922F9B28BF1688003011AC /* files */,
+				C8922F8A28BF1667003011AC /* AppDelegate.swift */,
+				C8922F8E28BF1667003011AC /* Main.storyboard */,
+				C8922F9128BF1669003011AC /* Assets.xcassets */,
+				C8922F9328BF1669003011AC /* LaunchScreen.storyboard */,
+				C8922FAA28BF16E9003011AC /* SplashViewController.swift */,
+				C8922FAC28BF16F8003011AC /* AppViewController.swift */,
+				C86710D028C319480049E437 /* InternetActivity.swift */,
+			);
+			path = "DiRE TV";
+			sourceTree = "<group>";
+		};
+		C8922F9B28BF1688003011AC /* files */ = {
+			isa = PBXGroup;
+			children = (
+				C8922FA028BF169F003011AC /* _splash_background.mp4 */,
+				C8922F9D28BF169F003011AC /* dire_tv.mp4 */,
+				C8922F9C28BF169F003011AC /* fonts */,
+				C8922FA128BF169F003011AC /* logo.png */,
+				C8922FA228BF169F003011AC /* splash_background.mp4 */,
+				C8922F9E28BF169F003011AC /* ticker.png */,
+				C8922F9F28BF169F003011AC /* white_logo.png */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8922F8628BF1667003011AC /* DiRE TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8922F9828BF1669003011AC /* Build configuration list for PBXNativeTarget "DiRE TV" */;
+			buildPhases = (
+				4945889FAEECABAFFBD92D29 /* [CP] Check Pods Manifest.lock */,
+				C8922F8328BF1667003011AC /* Sources */,
+				C8922F8428BF1667003011AC /* Frameworks */,
+				C8922F8528BF1667003011AC /* Resources */,
+				883DD6BC950144444D58E3C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DiRE TV";
+			productName = "DiRE TV";
+			productReference = C8922F8728BF1667003011AC /* DiRE TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8922F7F28BF1667003011AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C8922F8628BF1667003011AC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C8922F8228BF1667003011AC /* Build configuration list for PBXProject "DiRE TV" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8922F7E28BF1667003011AC;
+			productRefGroup = C8922F8828BF1667003011AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8922F8628BF1667003011AC /* DiRE TV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8922F8528BF1667003011AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F4907528BFA3FA009420B1 /* RobotoCondensed-Bold.ttf in Resources */,
+				C8F4907628BFA3FA009420B1 /* RobotoCondensed-Light.ttf in Resources */,
+				C8F4907728BFA3FA009420B1 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				C8F4907828BFA3FA009420B1 /* RobotoCondensed-Regular.ttf in Resources */,
+				C8F4907928BFA3FA009420B1 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				C8F4907A28BFA3FB009420B1 /* RobotoCondensed-Italic.ttf in Resources */,
+				C8922FA428BF169F003011AC /* dire_tv.mp4 in Resources */,
+				C8922F9528BF1669003011AC /* LaunchScreen.storyboard in Resources */,
+				C8922FA828BF169F003011AC /* logo.png in Resources */,
+				C8922F9228BF1669003011AC /* Assets.xcassets in Resources */,
+				C8922FA928BF169F003011AC /* splash_background.mp4 in Resources */,
+				C8922FA628BF169F003011AC /* white_logo.png in Resources */,
+				C8922FA528BF169F003011AC /* ticker.png in Resources */,
+				C8922F9028BF1667003011AC /* Main.storyboard in Resources */,
+				C8922FA728BF169F003011AC /* _splash_background.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4945889FAEECABAFFBD92D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiRE TV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883DD6BC950144444D58E3C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiRE TV/Pods-DiRE TV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiRE TV/Pods-DiRE TV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiRE TV/Pods-DiRE TV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8922F8328BF1667003011AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88E04E528C2859400F83547 /* VideoCacheManager.swift in Sources */,
+				C88E04EA28C2859400F83547 /* VideoPreloadManager.swift in Sources */,
+				C88E04EF28C2859400F83547 /* AVPlayerItem+Extensions.swift in Sources */,
+				C88E04F228C2859400F83547 /* VideoDownloadInfo.swift in Sources */,
+				C88E04E428C2859400F83547 /* VideoFullscreenTransitioner.swift in Sources */,
+				C88E04ED28C2859400F83547 /* VideoPlayerView.swift in Sources */,
+				C88E04F528C2859400F83547 /* VideoCacheConfiguration.swift in Sources */,
+				C86710D128C319480049E437 /* InternetActivity.swift in Sources */,
+				C88E04E628C2859400F83547 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */,
+				C88E04EC28C2859400F83547 /* String+Extensions.swift in Sources */,
+				C8922FAD28BF16F8003011AC /* AppViewController.swift in Sources */,
+				C88E04E328C2859400F83547 /* VideoDownloader.swift in Sources */,
+				C88E04E928C2859400F83547 /* Int+Extensions.swift in Sources */,
+				C88E04F628C2859400F83547 /* VideoLoader.swift in Sources */,
+				C88E04E828C2859400F83547 /* VideoDownloaderSessionDelegateHandler.swift in Sources */,
+				C88E04E228C2859400F83547 /* VideoLoadManager.swift in Sources */,
+				C88E04EB28C2859400F83547 /* VideoRequestLoader.swift in Sources */,
+				C88E04F128C2859400F83547 /* VideoFullscreenPlayerView.swift in Sources */,
+				C88E04EE28C2859400F83547 /* Double+Extensions.swift in Sources */,
+				C88E04F728C2859400F83547 /* GSAVPlayerViewController.swift in Sources */,
+				C8922F8B28BF1667003011AC /* AppDelegate.swift in Sources */,
+				C88E04E128C2859400F83547 /* VideoCacheHandler.swift in Sources */,
+				C8922FAB28BF16E9003011AC /* SplashViewController.swift in Sources */,
+				C88E04E028C2859400F83547 /* VideoDownloaderHandler.swift in Sources */,
+				C88E04F028C2859400F83547 /* VideoCacheAction.swift in Sources */,
+				C88E04F428C2859400F83547 /* VideoInfo.swift in Sources */,
+				C88E04F328C2859400F83547 /* Float+Extensions.swift in Sources */,
+				C88E04E728C2859400F83547 /* AVPlayer+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8922F8E28BF1667003011AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8922F8F28BF1667003011AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8922F9328BF1669003011AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8922F9428BF1669003011AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8922F9628BF1669003011AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		C8922F9728BF1669003011AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8922F9928BF1669003011AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE898888818ECA53DFEE70D /* Pods-DiRE TV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 9M7PC74CCM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DiRE-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dire.tvapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "diretv-tvOS";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C8922F9A28BF1669003011AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFE6BDCFA47B34A0636D9FF /* Pods-DiRE TV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 9M7PC74CCM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DiRE-TV-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dire.tvapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "diretv-tvOS";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8922F8228BF1667003011AC /* Build configuration list for PBXProject "DiRE TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8922F9628BF1669003011AC /* Debug */,
+				C8922F9728BF1669003011AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8922F9828BF1669003011AC /* Build configuration list for PBXNativeTarget "DiRE TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8922F9928BF1669003011AC /* Debug */,
+				C8922F9A28BF1669003011AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8922F7F28BF1667003011AC /* Project object */;
+}
