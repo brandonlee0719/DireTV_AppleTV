@@ -369,9 +369,9 @@ private extension VideoPlayerView {
         
         playerItemKeepUpObservation = playerItem.observe(\.isPlaybackLikelyToKeepUp) { [unowned self] item, _ in
             if item.isPlaybackLikelyToKeepUp {
-                print("asdfsfsdfg")
+//                print("asdfsfsdfg")
                 if self.player?.rate == 0, self.pausedReason == .waitingKeepUp {
-                    print("akjhfjkshdf")
+//                    print("akjhfjkshdf")
                     self.player?.play()
 //                    self.player?.playImmediately(atRate: 1.0)
                 }

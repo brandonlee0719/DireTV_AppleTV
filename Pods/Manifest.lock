@@ -1,16 +1,20 @@
 PODS:
   - MarqueeLabel (4.3.0)
+  - ReachabilitySwift (5.0.0)
 
 DEPENDENCIES:
   - MarqueeLabel
+  - ReachabilitySwift
 
 SPEC REPOS:
   trunk:
     - MarqueeLabel
+    - ReachabilitySwift
 
 SPEC CHECKSUMS:
   MarqueeLabel: 02f5ac8fd6877c94564556cb93fa86c70c08baeb
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
 
-PODFILE CHECKSUM: 6203b727ce7333c926d21f01579b609cae0bef38
+PODFILE CHECKSUM: 721a9c0e1323c8cddb0ef059f1588d4ab59b8ee7
 
 COCOAPODS: 1.11.3

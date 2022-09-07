@@ -6,6 +6,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoCondensed-Regular.ttf">
+            <string>RobotoCondensed-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -63,6 +68,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKB-RL-jan" customClass="MarqueeLabel" customModule="MarqueeLabel">
                                         <rect key="frame" x="269" y="19.5" width="1501" height="46"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -91,14 +97,26 @@
                                     <constraint firstItem="1c7-Ve-nVL" firstAttribute="width" secondItem="QYF-2c-XuH" secondAttribute="width" multiplier="0.065" id="xnu-e5-6wc"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Problema di connessione alla rete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8Z-dn-wo9">
+                                <rect key="frame" x="510" y="490" width="900" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="900" id="JA3-te-qYM"/>
+                                    <constraint firstAttribute="height" constant="100" id="Tyb-DN-VU5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Regular" family="Roboto Condensed" pointSize="53"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8az-zL-DeU"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="p8Z-dn-wo9" firstAttribute="centerY" secondItem="8az-zL-DeU" secondAttribute="centerY" id="8BP-zN-T54"/>
                             <constraint firstItem="QYF-2c-XuH" firstAttribute="leading" secondItem="8az-zL-DeU" secondAttribute="leading" constant="-5" id="9N2-xB-BYK"/>
                             <constraint firstItem="QYF-2c-XuH" firstAttribute="top" secondItem="90d-VY-tR8" secondAttribute="bottom" id="AGM-YL-XcM"/>
                             <constraint firstAttribute="bottom" secondItem="QYF-2c-XuH" secondAttribute="bottom" id="J5P-zj-YsB"/>
                             <constraint firstItem="90d-VY-tR8" firstAttribute="top" secondItem="Ont-Xk-ypA" secondAttribute="top" id="JVH-An-KTV"/>
+                            <constraint firstItem="p8Z-dn-wo9" firstAttribute="centerX" secondItem="8az-zL-DeU" secondAttribute="centerX" id="TYl-MQ-RzZ"/>
                             <constraint firstAttribute="trailing" secondItem="90d-VY-tR8" secondAttribute="trailing" id="Utm-gL-95t"/>
                             <constraint firstItem="QYF-2c-XuH" firstAttribute="trailing" secondItem="8az-zL-DeU" secondAttribute="trailing" constant="5" id="bCZ-lE-Mol"/>
                             <constraint firstItem="90d-VY-tR8" firstAttribute="leading" secondItem="Ont-Xk-ypA" secondAttribute="leading" id="vVe-Ec-VaE"/>
@@ -106,16 +124,54 @@
                     </view>
                     <navigationItem key="navigationItem" id="Wsx-wV-vSo"/>
                     <connections>
+                        <outlet property="NoInternetLabel" destination="p8Z-dn-wo9" id="o7z-NC-ZRV"/>
                         <outlet property="dateTimeText" destination="W0W-H4-09b" id="Ph3-Pf-FSk"/>
                         <outlet property="marqueeTextValues" destination="nKB-RL-jan" id="nec-oU-xip"/>
                         <outlet property="playerView" destination="90d-VY-tR8" id="yoO-LU-O4c"/>
                         <outlet property="tickerView" destination="QYF-2c-XuH" id="pOv-S8-Gy2"/>
                         <outlet property="whiteLogo" destination="PH2-bs-pOa" id="0D8-fc-ATx"/>
+                        <segue destination="giO-BS-E10" kind="show" id="wn5-TW-fe5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxW-Es-WRI" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2190" y="113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dVl-bs-Vjz">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16E-XI-mlK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="giO-BS-E10" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cku-3a-ck4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uqn-cv-Y4n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eLK-KW-lSY">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Problema di connessione alla rete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfH-DU-LyG">
+                                <rect key="frame" x="510" y="490" width="900" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="900" id="EDt-fx-9qI"/>
+                                    <constraint firstAttribute="height" constant="100" id="Hxc-UW-t6e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Regular" family="Roboto Condensed" pointSize="53"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JRA-qY-O8c"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cfH-DU-LyG" firstAttribute="centerY" secondItem="JRA-qY-O8c" secondAttribute="centerY" id="7Na-2j-7JE"/>
+                            <constraint firstItem="cfH-DU-LyG" firstAttribute="centerX" secondItem="JRA-qY-O8c" secondAttribute="centerX" id="VcM-xF-RIN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="d27-u8-gvR"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2243" y="1550"/>
         </scene>
     </scenes>
     <designables>

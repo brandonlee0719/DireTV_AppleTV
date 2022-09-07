@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2DBEF0D061395F0152093807 /* Pods_DiRE_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66DD38775EA77ACF86EBB58 /* Pods_DiRE_TV.framework */; };
-		C86710D128C319480049E437 /* InternetActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86710D028C319480049E437 /* InternetActivity.swift */; };
 		C88E04E028C2859400F83547 /* VideoDownloaderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04C828C2859300F83547 /* VideoDownloaderHandler.swift */; };
 		C88E04E128C2859400F83547 /* VideoCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04C928C2859300F83547 /* VideoCacheHandler.swift */; };
 		C88E04E228C2859400F83547 /* VideoLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E04CA28C2859400F83547 /* VideoLoadManager.swift */; };
@@ -57,7 +56,6 @@
 		4EE898888818ECA53DFEE70D /* Pods-DiRE TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiRE TV.debug.xcconfig"; path = "Target Support Files/Pods-DiRE TV/Pods-DiRE TV.debug.xcconfig"; sourceTree = "<group>"; };
 		6CFE6BDCFA47B34A0636D9FF /* Pods-DiRE TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiRE TV.release.xcconfig"; path = "Target Support Files/Pods-DiRE TV/Pods-DiRE TV.release.xcconfig"; sourceTree = "<group>"; };
 		C66DD38775EA77ACF86EBB58 /* Pods_DiRE_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiRE_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C86710D028C319480049E437 /* InternetActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetActivity.swift; sourceTree = "<group>"; };
 		C88E04C828C2859300F83547 /* VideoDownloaderHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloaderHandler.swift; sourceTree = "<group>"; };
 		C88E04C928C2859300F83547 /* VideoCacheHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCacheHandler.swift; sourceTree = "<group>"; };
 		C88E04CA28C2859400F83547 /* VideoLoadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLoadManager.swift; sourceTree = "<group>"; };
@@ -201,7 +199,6 @@
 				C8922F9328BF1669003011AC /* LaunchScreen.storyboard */,
 				C8922FAA28BF16E9003011AC /* SplashViewController.swift */,
 				C8922FAC28BF16F8003011AC /* AppViewController.swift */,
-				C86710D028C319480049E437 /* InternetActivity.swift */,
 			);
 			path = "DiRE TV";
 			sourceTree = "<group>";
@@ -354,7 +351,6 @@
 				C88E04E428C2859400F83547 /* VideoFullscreenTransitioner.swift in Sources */,
 				C88E04ED28C2859400F83547 /* VideoPlayerView.swift in Sources */,
 				C88E04F528C2859400F83547 /* VideoCacheConfiguration.swift in Sources */,
-				C86710D128C319480049E437 /* InternetActivity.swift in Sources */,
 				C88E04E628C2859400F83547 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */,
 				C88E04EC28C2859400F83547 /* String+Extensions.swift in Sources */,
 				C8922FAD28BF16F8003011AC /* AppViewController.swift in Sources */,
@@ -522,7 +518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 9M7PC74CCM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DiRE-TV-Info.plist";
@@ -551,7 +547,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 9M7PC74CCM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DiRE-TV-Info.plist";

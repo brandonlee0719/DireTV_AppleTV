@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-DiRE TV/Pods-DiRE TV-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework

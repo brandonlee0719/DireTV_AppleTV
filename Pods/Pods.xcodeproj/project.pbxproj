@@ -7,54 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19EE53C9966D4142DD5B6BA2AD06D52B /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0FE1F280EBE6CD17CB11D260C4855F /* MarqueeLabel.swift */; };
-		2F9878203C57B16F8A2341363CE6ADE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAFCB43B643869D69EAE42616A6E549 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E8D5234443EC22A316E5CFED57DED41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288C3E39025266D9E7EA7F15AF4E927E /* UIKit.framework */; };
-		523537A356100D45B409A0651BEE82C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C24968FDB082C79A8D32737D09B4C7 /* QuartzCore.framework */; };
-		6CE0B8970AEE2F68ABC4434712981A8A /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DF49C3CAE0CCE0323406E8F1B01F8 /* MarqueeLabel-dummy.m */; };
-		ACDF8363F76E04B6A63BB10405ECB0A5 /* Pods-DiRE TV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF9134C140614DA6247BF92601B7F87 /* Pods-DiRE TV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFD017B8F4B7007613794D144CEE4EF5 /* Pods-DiRE TV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62135CB7BEE439A8B61D8E765148B2B3 /* Pods-DiRE TV-dummy.m */; };
-		CDE6EE7477F33CE2199691C94C87C6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D3364E7142C0C5C57D98424CCEEA65 /* Foundation.framework */; };
-		E0457117F079E836533C5DF0E5328A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D3364E7142C0C5C57D98424CCEEA65 /* Foundation.framework */; };
+		059C71AE3610106CFBB6C5209A567073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32B69CF26C235B46861C88841FC8EFE /* Foundation.framework */; };
+		19EE53C9966D4142DD5B6BA2AD06D52B /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120C2E5CFD529DE7230DF05CCD1E62B /* MarqueeLabel.swift */; };
+		2CE693ECFC7CD7A3A4A6F336AE4088B3 /* Pods-DiRE TV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62135CB7BEE439A8B61D8E765148B2B3 /* Pods-DiRE TV-dummy.m */; };
+		2F9878203C57B16F8A2341363CE6ADE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC86EE279B0312759922C43AD328BB78 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8D5234443EC22A316E5CFED57DED41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8341425FA6A82B2032962F3A60E121 /* UIKit.framework */; };
+		523537A356100D45B409A0651BEE82C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1471347A3675FAB5C3759AB84819683E /* QuartzCore.framework */; };
+		6CE0B8970AEE2F68ABC4434712981A8A /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E497AE56A50AB78FBD8BDA55E5847D /* MarqueeLabel-dummy.m */; };
+		7FA40A3AAEA7F0F2DF0C72EDDD7DAC79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F8B18CF7F9D4681C0D39C75C501B0 /* SystemConfiguration.framework */; };
+		822127D9E51B3868A2CCB41A48802DE0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA564D37F76588A89FCD98E2179CBAB /* Reachability.swift */; };
+		85BD0655ADECE1FE22DBEA80A8B6EE36 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 437476A5C2FAA7F7C7B4332A9ABEBD8C /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB5427B7325FD1DBA2A8FFE45B5B237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32B69CF26C235B46861C88841FC8EFE /* Foundation.framework */; };
+		E0457117F079E836533C5DF0E5328A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32B69CF26C235B46861C88841FC8EFE /* Foundation.framework */; };
+		E28B24E8931B2EF777CA3805698ACD36 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C389E667549677C025C1587C5E7B8EA7 /* ReachabilitySwift-dummy.m */; };
+		F89632B097DE95E62A7A2CB47D450C0D /* Pods-DiRE TV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF9134C140614DA6247BF92601B7F87 /* Pods-DiRE TV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		263B5C8B46BD170E2F727AE8168BD989 /* PBXContainerItemProxy */ = {
+		983AFD3E62C66D347D4C59CF250EB37C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C23DB88E45B0ED14F0C8827BE9C46C95;
 			remoteInfo = MarqueeLabel;
 		};
+		E45B21EDB4BF6EBDC508CB8D1F6460F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		024E9845E229CA490E9D0CC45B2346AF /* Pods-DiRE TV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiRE TV.modulemap"; sourceTree = "<group>"; };
+		09FDC0D6B219C52CD6F41E35BD4C2D20 /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
 		0D30ABCC367D892DD3D475AF58625FF3 /* Pods-DiRE TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiRE TV.release.xcconfig"; sourceTree = "<group>"; };
-		147D1E396BFD010C500D8F2D1A2CA557 /* MarqueeLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.release.xcconfig; sourceTree = "<group>"; };
-		21C24968FDB082C79A8D32737D09B4C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		288C3E39025266D9E7EA7F15AF4E927E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		46E50A1A1E7598D671663C90E2F9FF00 /* MarqueeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.debug.xcconfig; sourceTree = "<group>"; };
-		4A0FE1F280EBE6CD17CB11D260C4855F /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
+		1471347A3675FAB5C3759AB84819683E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		165888FB3FDCF3D56F2A2F8FB0CAEED4 /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		16E497AE56A50AB78FBD8BDA55E5847D /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D9503204C56E79CE3100FF84532A4C /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		3A41F6B78A1ACEE11305953D89C4904C /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		437476A5C2FAA7F7C7B4332A9ABEBD8C /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		4D8341425FA6A82B2032962F3A60E121 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4DF9134C140614DA6247BF92601B7F87 /* Pods-DiRE TV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiRE TV-umbrella.h"; sourceTree = "<group>"; };
-		506C1805F0EAF8D2FDE3D524C708E880 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		5B314D9172171D82CF21C00D0007BC1C /* MarqueeLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.release.xcconfig; sourceTree = "<group>"; };
 		5CCDB68F3F5D60928F254E68FA1BFF01 /* Pods-DiRE TV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiRE TV-frameworks.sh"; sourceTree = "<group>"; };
-		5FAFCB43B643869D69EAE42616A6E549 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
 		62135CB7BEE439A8B61D8E765148B2B3 /* Pods-DiRE TV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiRE TV-dummy.m"; sourceTree = "<group>"; };
 		6A275C09EB265E0E4F65BE554E6198AC /* Pods-DiRE TV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiRE TV-acknowledgements.plist"; sourceTree = "<group>"; };
+		76C5544FA54CCABEBC9DC240F8FA58B6 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
 		7BCC5C3F8CBBEC8D2C37DB84D1470F25 /* Pods-DiRE TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiRE TV.debug.xcconfig"; sourceTree = "<group>"; };
-		7CA86ABF5C2C99DA436C2E71CEA0D366 /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
-		844DF49C3CAE0CCE0323406E8F1B01F8 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		8120C2E5CFD529DE7230DF05CCD1E62B /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA564D37F76588A89FCD98E2179CBAB /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		A32B69CF26C235B46861C88841FC8EFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A416372DAEF9CC6A2D9BD5ABB5705AD4 /* Pods-DiRE TV */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiRE TV"; path = Pods_DiRE_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8D3364E7142C0C5C57D98424CCEEA65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AC3F8B18CF7F9D4681C0D39C75C501B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		AC593B095F2A8C9DE70ACD2B2CD0D9F6 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		AC86EE279B0312759922C43AD328BB78 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		AE6D4E04473F37AABCEA005D45F7C3F1 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		C389E667549677C025C1587C5E7B8EA7 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28151C7B9B53AC181A8CCA608A898BF /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		D9C575E971DC24E89A82184FAD296D0C /* MarqueeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.debug.xcconfig; sourceTree = "<group>"; };
+		E600E7F57DBFCBFA4BC2FC98A257D34B /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
 		F1FECB1B117BB07D2C681EF8DA786DE8 /* Pods-DiRE TV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiRE TV-Info.plist"; sourceTree = "<group>"; };
 		FBD6D56285351B291FF17F749E6B8D51 /* Pods-DiRE TV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiRE TV-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		589919D24559210D00EFD7BF7BFDFC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059C71AE3610106CFBB6C5209A567073 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE1746FCBBF82FC26CB045D88B1BCC1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,11 +95,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFBE472B73A9C9BAB5EE46F334C8079C /* Frameworks */ = {
+		F2E7F7A9774B8A889CF2D36DE8D6A60B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE6EE7477F33CE2199691C94C87C6BC /* Foundation.framework in Frameworks */,
+				AFB5427B7325FD1DBA2A8FFE45B5B237 /* Foundation.framework in Frameworks */,
+				7FA40A3AAEA7F0F2DF0C72EDDD7DAC79 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +113,21 @@
 				470FC3CCF4833ABB6BD96F568EA52AC5 /* Pods-DiRE TV */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2888EF51E8E7B34C688144271B7FDD5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC593B095F2A8C9DE70ACD2B2CD0D9F6 /* ReachabilitySwift.modulemap */,
+				C389E667549677C025C1587C5E7B8EA7 /* ReachabilitySwift-dummy.m */,
+				76C5544FA54CCABEBC9DC240F8FA58B6 /* ReachabilitySwift-Info.plist */,
+				AE6D4E04473F37AABCEA005D45F7C3F1 /* ReachabilitySwift-prefix.pch */,
+				437476A5C2FAA7F7C7B4332A9ABEBD8C /* ReachabilitySwift-umbrella.h */,
+				34D9503204C56E79CE3100FF84532A4C /* ReachabilitySwift.debug.xcconfig */,
+				165888FB3FDCF3D56F2A2F8FB0CAEED4 /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
 			sourceTree = "<group>";
 		};
 		470FC3CCF4833ABB6BD96F568EA52AC5 /* Pods-DiRE TV */ = {
@@ -101,80 +147,109 @@
 			path = "Target Support Files/Pods-DiRE TV";
 			sourceTree = "<group>";
 		};
-		5AF62686CFE43F7202D9434B19E54EEB /* tvOS */ = {
+		494FFC2BAB195C99523012758E410D51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8D3364E7142C0C5C57D98424CCEEA65 /* Foundation.framework */,
-				21C24968FDB082C79A8D32737D09B4C7 /* QuartzCore.framework */,
-				288C3E39025266D9E7EA7F15AF4E927E /* UIKit.framework */,
+				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel */,
+				A416372DAEF9CC6A2D9BD5ABB5705AD4 /* Pods-DiRE TV */,
+				21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */,
 			);
-			name = tvOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		ADDCF4F254169A4BAF86B07D092EDF72 /* Support Files */ = {
+		613B13B87E7FF4B4115BC052036294AB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				506C1805F0EAF8D2FDE3D524C708E880 /* MarqueeLabel.modulemap */,
-				844DF49C3CAE0CCE0323406E8F1B01F8 /* MarqueeLabel-dummy.m */,
-				7CA86ABF5C2C99DA436C2E71CEA0D366 /* MarqueeLabel-Info.plist */,
-				D28151C7B9B53AC181A8CCA608A898BF /* MarqueeLabel-prefix.pch */,
-				5FAFCB43B643869D69EAE42616A6E549 /* MarqueeLabel-umbrella.h */,
-				46E50A1A1E7598D671663C90E2F9FF00 /* MarqueeLabel.debug.xcconfig */,
-				147D1E396BFD010C500D8F2D1A2CA557 /* MarqueeLabel.release.xcconfig */,
+				9C409AADF480AF7006ED23B062A4650B /* MarqueeLabel */,
+				99D56875FB468D8EB9BFBAAB30EB3415 /* ReachabilitySwift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MarqueeLabel";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		CA0B97F54F054ED4E45E343B6AA388B1 /* MarqueeLabel */ = {
+		99D56875FB468D8EB9BFBAAB30EB3415 /* ReachabilitySwift */ = {
 			isa = PBXGroup;
 			children = (
-				4A0FE1F280EBE6CD17CB11D260C4855F /* MarqueeLabel.swift */,
-				ADDCF4F254169A4BAF86B07D092EDF72 /* Support Files */,
+				9EA564D37F76588A89FCD98E2179CBAB /* Reachability.swift */,
+				2888EF51E8E7B34C688144271B7FDD5B /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		9C409AADF480AF7006ED23B062A4650B /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8120C2E5CFD529DE7230DF05CCD1E62B /* MarqueeLabel.swift */,
+				C913ED2ACBC2CBA2E0AF9C1439ED1F0F /* Support Files */,
 			);
 			name = MarqueeLabel;
 			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		C16D802DB73E6315C7F0A29F03492776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1F8F9F858898F4137257D43FD87309E /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C913ED2ACBC2CBA2E0AF9C1439ED1F0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E600E7F57DBFCBFA4BC2FC98A257D34B /* MarqueeLabel.modulemap */,
+				16E497AE56A50AB78FBD8BDA55E5847D /* MarqueeLabel-dummy.m */,
+				09FDC0D6B219C52CD6F41E35BD4C2D20 /* MarqueeLabel-Info.plist */,
+				3A41F6B78A1ACEE11305953D89C4904C /* MarqueeLabel-prefix.pch */,
+				AC86EE279B0312759922C43AD328BB78 /* MarqueeLabel-umbrella.h */,
+				D9C575E971DC24E89A82184FAD296D0C /* MarqueeLabel.debug.xcconfig */,
+				5B314D9172171D82CF21C00D0007BC1C /* MarqueeLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DF5938026FCD5FD46C5D52F9632D5235 /* Frameworks */,
-				F89CF82BFB6B29D57B3ED666A4980FA6 /* Pods */,
-				F730519CF58885FBCB622897BD46FF73 /* Products */,
+				C16D802DB73E6315C7F0A29F03492776 /* Frameworks */,
+				613B13B87E7FF4B4115BC052036294AB /* Pods */,
+				494FFC2BAB195C99523012758E410D51 /* Products */,
 				1DDF1EA063397CCA8DE2008467C97373 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DF5938026FCD5FD46C5D52F9632D5235 /* Frameworks */ = {
+		F1F8F9F858898F4137257D43FD87309E /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				5AF62686CFE43F7202D9434B19E54EEB /* tvOS */,
+				A32B69CF26C235B46861C88841FC8EFE /* Foundation.framework */,
+				1471347A3675FAB5C3759AB84819683E /* QuartzCore.framework */,
+				AC3F8B18CF7F9D4681C0D39C75C501B0 /* SystemConfiguration.framework */,
+				4D8341425FA6A82B2032962F3A60E121 /* UIKit.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F730519CF58885FBCB622897BD46FF73 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel */,
-				A416372DAEF9CC6A2D9BD5ABB5705AD4 /* Pods-DiRE TV */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F89CF82BFB6B29D57B3ED666A4980FA6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA0B97F54F054ED4E45E343B6AA388B1 /* MarqueeLabel */,
-			);
-			name = Pods;
+			name = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		54657A9E56090FC6887848CF5223EF6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BD0655ADECE1FE22DBEA80A8B6EE36 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787596C49C0C22FF87735680260CB4D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89632B097DE95E62A7A2CB47D450C0D /* Pods-DiRE TV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAAAA2AF2FEEBF748BED3AC45024887C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,17 +258,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E82BEB83C3997AF09127F0F219B58CB2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACDF8363F76E04B6A63BB10405ECB0A5 /* Pods-DiRE TV-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC2AFFCFBE5BDDB87DB75212E50A2DD /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				54657A9E56090FC6887848CF5223EF6F /* Headers */,
+				37F602C734114C231597AB0E96D1A88D /* Sources */,
+				F2E7F7A9774B8A889CF2D36DE8D6A60B /* Frameworks */,
+				E37A19DE5C03FCD95B84EDC46BE89ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = Reachability;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */;
+			productType = "com.apple.product-type.framework";
+		};
 		C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 251180A9B6B807638C65029608571B8F /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
@@ -214,17 +299,18 @@
 		};
 		E3934F30C7FAAEFCBCCB167B46A7E447 /* Pods-DiRE TV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4239F44B9CA3521B2CFAD785F101B99B /* Build configuration list for PBXNativeTarget "Pods-DiRE TV" */;
+			buildConfigurationList = 758F53AF553A2433FD57043A47FA8BDF /* Build configuration list for PBXNativeTarget "Pods-DiRE TV" */;
 			buildPhases = (
-				E82BEB83C3997AF09127F0F219B58CB2 /* Headers */,
-				7EE2ACCCDCBDAE25C4174168048E778C /* Sources */,
-				DFBE472B73A9C9BAB5EE46F334C8079C /* Frameworks */,
-				E720D691594367CEB47C4295EEA17792 /* Resources */,
+				787596C49C0C22FF87735680260CB4D0 /* Headers */,
+				A397098C072849FAECB1863314549B73 /* Sources */,
+				589919D24559210D00EFD7BF7BFDFC4E /* Frameworks */,
+				A5257D1E22431DCDDB58416B758AF9FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				197469B20644CCCC5C067A5B0F551CDD /* PBXTargetDependency */,
+				0E6B881AA3E1DE0D47EAC1FADF97BD8E /* PBXTargetDependency */,
+				06C4874116C870296413F9F67EA2D1F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-DiRE TV";
 			productName = Pods_DiRE_TV;
@@ -249,12 +335,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F730519CF58885FBCB622897BD46FF73 /* Products */;
+			productRefGroup = 494FFC2BAB195C99523012758E410D51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */,
 				E3934F30C7FAAEFCBCCB167B46A7E447 /* Pods-DiRE TV */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +354,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E720D691594367CEB47C4295EEA17792 /* Resources */ = {
+		A5257D1E22431DCDDB58416B758AF9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37A19DE5C03FCD95B84EDC46BE89ACE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,11 +371,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7EE2ACCCDCBDAE25C4174168048E778C /* Sources */ = {
+		37F602C734114C231597AB0E96D1A88D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD017B8F4B7007613794D144CEE4EF5 /* Pods-DiRE TV-dummy.m in Sources */,
+				822127D9E51B3868A2CCB41A48802DE0 /* Reachability.swift in Sources */,
+				E28B24E8931B2EF777CA3805698ACD36 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A397098C072849FAECB1863314549B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE693ECFC7CD7A3A4A6F336AE4088B3 /* Pods-DiRE TV-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,50 +400,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		197469B20644CCCC5C067A5B0F551CDD /* PBXTargetDependency */ = {
+		06C4874116C870296413F9F67EA2D1F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = E45B21EDB4BF6EBDC508CB8D1F6460F1 /* PBXContainerItemProxy */;
+		};
+		0E6B881AA3E1DE0D47EAC1FADF97BD8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MarqueeLabel;
 			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
-			targetProxy = 263B5C8B46BD170E2F727AE8168BD989 /* PBXContainerItemProxy */;
+			targetProxy = 983AFD3E62C66D347D4C59CF250EB37C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D5132DF2C0EFC8878FE6B2A51DCA4D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46E50A1A1E7598D671663C90E2F9FF00 /* MarqueeLabel.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
-				PRODUCT_MODULE_NAME = MarqueeLabel;
-				PRODUCT_NAME = MarqueeLabel;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2EAB975CB2552194032391C542FF012E /* Debug */ = {
+		1A548532DA88682C11664C50817930D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BCC5C3F8CBBEC8D2C37DB84D1470F25 /* Pods-DiRE TV.debug.xcconfig */;
 			buildSettings = {
@@ -371,6 +446,40 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D5132DF2C0EFC8878FE6B2A51DCA4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C575E971DC24E89A82184FAD296D0C /* MarqueeLabel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -438,9 +547,43 @@
 			};
 			name = Release;
 		};
+		9C5BF270F1FCFD4F15CF4E515E9ACB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D9503204C56E79CE3100FF84532A4C /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B1F4779C141E0845E38E84859D815EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 147D1E396BFD010C500D8F2D1A2CA557 /* MarqueeLabel.release.xcconfig */;
+			baseConfigurationReference = 5B314D9172171D82CF21C00D0007BC1C /* MarqueeLabel.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -473,7 +616,42 @@
 			};
 			name = Release;
 		};
-		C7FE90AC864F4F49F8E0C2652672966B /* Release */ = {
+		C45B781C23BB7F20DA336F0742F451BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165888FB3FDCF3D56F2A2F8FB0CAEED4 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD7E86F81E760ED99F472B7F27038A4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D30ABCC367D892DD3D475AF58625FF3 /* Pods-DiRE TV.release.xcconfig */;
 			buildSettings = {
@@ -588,20 +766,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4239F44B9CA3521B2CFAD785F101B99B /* Build configuration list for PBXNativeTarget "Pods-DiRE TV" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EAB975CB2552194032391C542FF012E /* Debug */,
-				C7FE90AC864F4F49F8E0C2652672966B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D70824A32B690239D79E1803B2FCE448 /* Debug */,
 				94C5473DE5CF47D91F7742DACA030387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758F53AF553A2433FD57043A47FA8BDF /* Build configuration list for PBXNativeTarget "Pods-DiRE TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A548532DA88682C11664C50817930D5 /* Debug */,
+				CD7E86F81E760ED99F472B7F27038A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC2AFFCFBE5BDDB87DB75212E50A2DD /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5BF270F1FCFD4F15CF4E515E9ACB10 /* Debug */,
+				C45B781C23BB7F20DA336F0742F451BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
