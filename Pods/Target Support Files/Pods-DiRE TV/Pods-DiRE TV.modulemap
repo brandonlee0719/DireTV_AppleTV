@@ -1,6 +1,0 @@
-framework module Pods_DiRE_TV {
-  umbrella header "Pods-DiRE TV-umbrella.h"
-
-  export *
-  module * { export * }
-}
